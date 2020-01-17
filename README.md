@@ -1,4 +1,4 @@
-# Resume :bar_chart:
+# 💻 My Website 💻
 
 This repository contains my [personal website](https://branko-malaver-vojvodic.github.io/website/).
 

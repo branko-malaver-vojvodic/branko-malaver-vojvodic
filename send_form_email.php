@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['email_from'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
     $email_to = "bmala060@uottawa.ca";
@@ -17,7 +17,7 @@ if(isset($_POST['email'])) {
 
     // validation expected data exists
     if(!isset($_POST['first_name']) ||
-        !isset($_POST['email']) ||
+        !isset($_POST['email_from']) ||
         !isset($_POST['telephone']) ||
         !isset($_POST['comments'])) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');
@@ -26,7 +26,7 @@ if(isset($_POST['email'])) {
 
 
     $first_name = $_POST['first_name']; // required
-    $email_from = $_POST['email']; // required
+    $email_from = $_POST['email_from']; // required
     $telephone = $_POST['telephone']; // not required
     $comments = $_POST['comments']; // required
 
